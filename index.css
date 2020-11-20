@@ -32,4 +32,10 @@ nav{
 nav ul{
     display: flex;
 }
-nav
+nav ul li a{
+    margin:30px;
+    font-family: helvetica;
+    color: #505050;
+    font-size:15px;
+    font-weight: 700;
+}
