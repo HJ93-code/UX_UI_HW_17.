@@ -76,7 +76,7 @@ nav ul li a{
 .text-container {
     position: absolute;
     left: 13%;
-    top:42%;
+    top:32%;
     transform:translate(-13%,-42%);
 }
 .text-container button{
