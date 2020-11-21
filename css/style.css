@@ -34,6 +34,7 @@ nav{
 }
 nav ul{
     display: flex;
+   
 }
 nav ul li a{
     margin:30px;
@@ -43,7 +44,7 @@ nav ul li a{
     font-weight: 700;
 }
 .logo{
-    font-family: Segoe UI;
+    font-family: futura;
     color:#000000;
     font-size:22px;  
 }
@@ -52,13 +53,13 @@ nav ul li a{
     color: #2d2a2a;
 }
 .text-container p:nth-child(1){
-   font-family:calibri;
+   font-family:futura;
    font-weight: bold;
    color: #6d6d6d;
    font-size: 22px;
 }
 .text-container p:nth-child(2){
-    font-family:Calibri;
+    font-family:futura;
     font-weight: bold;
     letter-spacing:1px;
     color:#1a1a1a;
@@ -99,7 +100,7 @@ button:active{
     transform:scale(1.1);
 }
 .model{
-    height:350px;
+    height:250px;
     position:absolute;
     bottom:40px;
     left:55%;
@@ -289,6 +290,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position:relative;
 
 }
 footer p{
@@ -304,7 +306,6 @@ font-size:30px;
     align-items: center;
     display:flex;
 
-
 }
 footer p:nth-child(2){
     font-size:13px;
@@ -312,7 +313,66 @@ footer p:nth-child(2){
     width:600px;
     text-align:center;
 }
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+  
+}
+.social-icons{
+    display: flex;
+    justify-content:center;
+}
+.copyright{
+    color:#565555;
+    font-size:13px;
+    position: absolute;
+    left:50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+.social-icons i{
+    color:#000000;
+}
+.social-icons a:hover,
+.a-social-b a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.7s;
+}
+.social-icons a:hover i{
+    color:#FFFFFF;
+    transition: all ease 0.7s;
+}
+.a-social-b{
+    position: fixed;
+    top: 50%;
+    right:0px;
+    transform: translateY(-50%);
+}
+.a-social-b a{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:50px;
+    height:50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color:#FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2); 
 
+}
+.a-social-b i{
+    color:#2b2b2b;
+    font-size: 20px;
+}
 
 
 
