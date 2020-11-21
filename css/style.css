@@ -19,6 +19,8 @@ section{
     background-image:url("./images/Linkd\ in\ profile\ .png");
     background-repeat:no-repeat;
     background-size:cover;
+    position:relative;
+
 }
 
 nav{
@@ -34,8 +36,8 @@ nav ul{
     display: flex;
 }
 nav ul li a{
-    margin:15px;
-    font-family: helvetica;
+    margin:30px;
+    font-family: myriad pro regular;
     color: #505050;
     font-size:15px;
     font-weight: 700;
@@ -76,7 +78,7 @@ nav ul li a{
 .text-container {
     position: absolute;
     left: 13%;
-    top:32%;
+    top:42%;
     transform:translate(-13%,-42%);
 }
 .text-container button{
@@ -90,9 +92,8 @@ nav ul li a{
     margin:0px 10px;
 }
 .down-cv {
-    background-color:#0b0b0b;
-    color:#FFFFFF;
-    border:none;
+    border:2px solid #373636;
+    color:#373636;
 }
 button:active{
     transform:scale(1.1);
@@ -109,7 +110,7 @@ button:active{
     height:330px;
     background-color:#FFFFFF;
     border-radius:20px;
-    box-shadow:2px 12px rgba(0,0,0,0,2);
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     display: flex;
     margin:-7% auto 20px auto;
     position:relative;
@@ -126,14 +127,15 @@ button:active{
     color:#403e3e;
     font-family:myriad pro;
     font-weight:bold;
-    font-size:23px;
-    list-style: height 0px;
+    font-size:26px;
+    line-height:0px;
 }
 .about-text p:nth-child(2),
 .about-text p:nth-child(3){
-   color:#383d3d;
-   font-size:13px;
+   color:#3e3d3d;
+   font-size:15px;
    font-family:myriad pro;
+   font-weight: bold;
    line-height:5px;
 }
 .about-text p:nth-child(4),
@@ -157,14 +159,16 @@ button:active{
 .services{
     height:600px;
     background-color:#FFFFFF;
-    padding:2% 10% 0px 10%;
+    padding:5% 15% 0px 15%;
+
+    
 
 }
 .services-text p:nth-child(1){
     font-family:calibri;
     font-weight:bold;
     color:#3e3d3d;
-    font-size:30px;
+    font-size:35px;
     line-height:0px;
 }
 .services-text p:nth-child(2){
@@ -252,6 +256,62 @@ button:active{
     outline:none;
     border-radius:5px;
 }
+.contact-me{
+    width:100%;
+    height:280px;
+    background-image: url("../images/BlackBannerwithLedge.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.contact-me p{
+    color:#FFFFFF;
+    font-size:25px;
+    font-family:calibri;
+    font-weight:bold;
+    border-bottom:2px solid #FFFFFF;
+}
+.contact-me button{
+    width:200px;
+    height:40px;
+    background-color:#FFFFFF;
+    outline:none;
+    border:none;
+    font-size:14px;
+    font-weight:bold;
+}
+.footer{
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer p{
+    font-family:calibri;
+}
+footer p:nth-child(1){
+
+    font-size:30px;
+    color:#191919;
+    line-height:10px;
+
+}
+footer p:nth-child(2){
+    font-size:16px;
+    color:#7e7d7d;
+    width:600px;
+    text-align:center;
+}
+
+
+
+
+
 
 
 
