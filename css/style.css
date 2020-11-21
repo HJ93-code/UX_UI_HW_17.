@@ -283,7 +283,7 @@ button:active{
     font-size:14px;
     font-weight:bold;
 }
-.footer{
+footer{
     height:300px;
     display:flex;
     flex-direction: column;
@@ -291,18 +291,23 @@ button:active{
     align-items: center;
 
 }
-.footer p{
+footer p{
     font-family:calibri;
 }
 footer p:nth-child(1){
 
-    font-size:30px;
+font-size:30px;
+    font-weight:bold;
     color:#191919;
-    line-height:10px;
+    line-height:30px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
 
 }
 footer p:nth-child(2){
-    font-size:16px;
+    font-size:13px;
     color:#7e7d7d;
     width:600px;
     text-align:center;
